@@ -1,0 +1,63 @@
+#top-seller{
+    min-height: 70vh;
+    position: relative;
+    top: 150px;
+}
+
+.top-seller-header{
+    margin: 30px 50px;
+}
+
+.top-seller-grid{
+    margin-left: 120px;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-top-seller{
+    display: flex;
+    margin-top: 10px;
+    width: 490px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1.5rem;
+}
+
+.contact-top-seller-profile img{
+    height: 70px;
+    width: 70px;
+    border-radius: 1rem;
+    z-index: 1;
+}
+
+.contact-top-seller-profile{
+    margin-left: -40px;
+    display: flex;
+    flex-direction: row;
+}
+.contact-top-seller-header h3{
+    font-size: 1.5rem;
+}
+
+.contact-top-seller{
+    position: relative;
+    left: -20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-top-seller-header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 6.5px;
+}
+
+.contact-top-seller-header sub{
+    color: grey;
+}
+
+.top{
+    position: relative;
+    top: 61px;
+}
