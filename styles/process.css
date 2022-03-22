@@ -4,10 +4,8 @@
 
 .process-wrapper{
     padding: 0px 30px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
 }
 
 .process-box{
@@ -58,7 +56,7 @@ i.fa-bookmark{
 }
 
 .process-box:hover{
-    transition: all 0.1s ease-in-out;
+    transition: all 0.3s ease-in-out;
     box-shadow: 1rem 1rem 4rem 1rem var(--secondary-color);
     -webkit-box-shadow: 1rem 1rem 4rem 1rem var(--secondary-color);
     transform: translateY(-2rem);

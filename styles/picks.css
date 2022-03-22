@@ -81,7 +81,7 @@ span{
 }
 
 .picks-box:hover{
-    transition: all 0.1s ease-in-out;
+    transition: all 0.3s ease-in-out;
     box-shadow: 1rem 1rem 4rem 1rem var(--secondary-color);
     -webkit-box-shadow: 1rem 1rem 4rem 1rem var(--secondary-color);
     transform: translateY(-2rem);

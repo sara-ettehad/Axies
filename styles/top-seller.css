@@ -1,23 +1,20 @@
 #top-seller{
-    min-height: 70vh;
-    position: relative;
-    top: 150px;
+    min-height: auto;
 }
 
 .top-seller-header{
     margin: 30px 50px;
 }
 
-.top-seller-grid{
-    margin-left: 120px;
-    display: flex;
-    flex-direction: row;
+.top-seller-wrapper{
+    margin: 0px 0px 0px 50px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    row-gap: 1em;
 }
 
 .contact-top-seller{
     display: flex;
-    margin-top: 10px;
-    width: 490px;
     flex-direction: column;
     align-items: center;
     border-radius: 1.5rem;
@@ -31,7 +28,6 @@
 }
 
 .contact-top-seller-profile{
-    margin-left: -40px;
     display: flex;
     flex-direction: row;
 }
@@ -40,24 +36,15 @@
 }
 
 .contact-top-seller{
-    position: relative;
-    left: -20px;
     display: flex;
     flex-direction: row;
 }
 
 .contact-top-seller-header{
-    position: relative;
     display: flex;
     flex-direction: column;
-    top: 6.5px;
 }
 
 .contact-top-seller-header sub{
     color: grey;
-}
-
-.top{
-    position: relative;
-    top: 61px;
 }

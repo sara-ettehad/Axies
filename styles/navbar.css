@@ -8,18 +8,13 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: black;
+    background-color: var(--dark-color);
     margin-right: 0px;
     align-items: center;
     width: 100%;
-    transition: all 0.3s ease-in-out;
-    box-shadow: 1rem 1rem 4rem 1rem var(--secondary-color);
-    -webkit-box-shadow: 1rem 1rem 4rem 1rem var(--secondary-color);
-    transform: translateY(-2rem);    
+    border-bottom-color: var(--light-color);
+    border-bottom-style:double;
     z-index: 999;
-}
-.navbar-logo{
-    margin-top: 18px;
 }
 
 .list{
@@ -32,7 +27,6 @@
 
 .navbar-menu{
     display: flex;
-    margin-top: 18px;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
@@ -43,7 +37,7 @@
 }
 
 .fa-wallet{
-    background: var(--dark-color);
+    background-color: var(--dark-color);
 }
 
 .nav-menu{
@@ -109,7 +103,7 @@
   float: left;
   overflow: hidden;
   height: 20px;
-  background-color: black;
+  background-color: var(--dark-color);
   display: flex;
   align-items: center;
 }
