@@ -17,7 +17,7 @@
     justify-content: center;
     background-color: var(--secondary-color);
     align-items: center;
-    border-radius: 1.5rem;
+    border-radius: var(--border-radius-lg);
 }
 
 .popular-box h3{
@@ -26,35 +26,18 @@
 }
 
 span{
-    font-size: 1.5rem;
+    font-size: var(--font-size-xl);
     color: grey;
 }
 
 .fa-heart{
-    font-size: smaller;
+    font-size: var(--font-size-md);
     color: var(--light-color);
     background-color: var(--dark-color);
 }
 
 .fa-heart:hover{
     color: red;
-}
-
-.btn-like{
-    margin-right: -40px;
-    display: flex;
-    position: relative;
-    flex-direction: row;
-    background-color: var(--dark-color);
-    border: none;
-    align-items: center;
-    justify-content: space-around;
-    width: 50px;
-    height: 13px;
-}
-
-.btn-like:hover{
-    background-color: var(--dark-color);
 }
 
 
@@ -73,7 +56,7 @@ span{
 .contact-popular-left-profile img{
     height: 40px;
     width: 40px;
-    border-radius: 1rem;
+    border-radius: var(--border-radius-md);
     z-index: 1;
 }
 
@@ -84,18 +67,24 @@ span{
 }
 
 .fa-check{
-    font-size: smaller;
+    font-size: var(--font-size-md);
     position: relative;
-    top: 30px;
+    display: flex;
     align-items: center;
     justify-content: center;
-    left: -10px;
     color: var(--light-color);
     background-color: var(--primary-color);
-    border-radius: 50%;
-    width: 15px;
+    border-radius: var(--border-radius-lg);
+    width:15px;
     height: 15px;
     z-index: 2;
+}
+
+.check{
+    position: relative;
+    right: 10px;
+    display: flex;
+    align-items: flex-end;
 }
 
 .image-popular{
@@ -106,7 +95,7 @@ span{
 
 .image-popular img{
     height: 100px;
-    border-radius: 1rem;
+    border-radius: var(--border-radius-md);
     margin: 5px 5px;
 }
 
@@ -116,9 +105,9 @@ span{
 }
 
 .popular-header{
-    margin: 30px 0px 30px 50px;
-    display: flex;    
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 30px 50px;
 }
 
 .image-popular-top{
@@ -142,12 +131,10 @@ span{
 }
 
 .contact-popular-left-header h3{
-    font-size: 0.9rem;
+    font-size: var(--font-size-md);
 }
 
 .contact-popular-left{
-    position: relative;
-    left: -20px;
     display: flex;
     flex-direction: row;
 }

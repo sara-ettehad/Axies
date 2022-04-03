@@ -16,7 +16,25 @@
     --accent-color: #9667e0;
     --light-color: aliceblue;
     --secondary-color: #363946;
+
+    --border-radius-tiny:0.12rem;
+    --border-radius-xs:0.25rem;
+    --border-radius-sm:0.5rem;
+    --border-radius-md:1rem;
+    --border-radius-lg:1.5rem;
+    --border-radius-xl:2rem;
+    --border-radius-2xl:2.5rem;
+    --border-radius-3xl:3rem;
+
+    --font-size-xs:0.5rem;
+    --font-size-sm:0.75rem;
+    --font-size-md:1rem;
+    --font-size-lg:1.25rem;
+    --font-size-xl:1.5rem;
+    --font-size-2xl:2rem;
+    --font-size-4xl: 4.5rem;
 }
+
 i{
     padding: 0 6px;
 }

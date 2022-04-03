@@ -17,13 +17,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-radius: 1.5rem;
+    border-radius: var(--border-radius-lg);
 }
 
 .contact-top-seller-profile img{
     height: 70px;
     width: 70px;
-    border-radius: 1rem;
+    border-radius: var(--border-radius-md);
     z-index: 1;
 }
 
