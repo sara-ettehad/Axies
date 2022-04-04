@@ -1,0 +1,115 @@
+#flower{
+    margin-top: 180px;
+    height: 600px;
+    background-color: var(--dark-color);
+}
+
+#live-flower{
+    background-color: var(--dark-color);
+}
+
+.flower__item--left{
+    display: flex;
+    align-items: center;
+}
+
+.flower__item--left img{
+    height: 100%;
+    width: 100%;
+    border-radius: var(--border-radius-md);
+}
+
+.flower__wrapper{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.flower__item--right{   
+    margin-left: 40px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.flower__buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flower__buttons--left{
+    display: flex;
+    flex-direction: row;
+}
+
+.flower__buttons--right{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+.contact__flower{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.flower-btn{
+    margin: 5px;
+    background-color: black;
+}
+
+.fa-play{
+    margin-right: 5px;
+    background-color: var(--secondary-color);
+    border-radius: var(--border-radius-3xl);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 25px;
+}
+
+.fa-ellipsis{
+    background-color: var(--secondary-color);
+    border-radius: var(--border-radius-3xl);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 25px;
+}
+
+.contact__flower--left{
+    background-color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    border-radius: var(--border-radius-md);
+    justify-content: center;
+    margin-left: 0px;
+    margin-right: 10px;
+    width: 250px;
+    height: 48px;
+}
+
+.contact__flower--right{
+    background-color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    border-radius: var(--border-radius-md);
+    justify-content: center;
+    margin-left: 25px;
+    width: 250px;
+    height: 48px;
+}
+
+.profile{
+    position: relative;
+    top: -8px;
+    left: -50px;
+}
+
+.flower-p{
+    margin-top: 10px;
+    color: gray;
+}

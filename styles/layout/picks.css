@@ -58,7 +58,7 @@ span{
 .contact-picks-left-profile img{
     height: 40px;
     width: 40px;
-    border-radius: var(--border-raduis-md);
+    border-radius: var(--border-radius-md);
     z-index: 1;
     position: relative;
     left: 19px;
