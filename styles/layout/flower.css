@@ -54,6 +54,31 @@
     grid-template-columns: repeat(2,1fr);
 }
 
+.contact__profile--left img{
+    border-radius: var(--border-radius-md);
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.contact-flower-profile1{
+    background-color: var(--secondary-color);
+    border-radius: var(--border-radius-md);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 230px;
+}
+
+.contact-flower-profile2{
+    background-color: var(--secondary-color);
+    border-radius: var(--border-radius-md);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 230px;
+    margin-left: 40px;
+}
+
 .flower-btn{
     margin: 5px;
     background-color: black;
@@ -80,36 +105,88 @@
     width: 25px;
 }
 
-.contact__flower--left{
-    background-color: var(--secondary-color);
-    display: flex;
-    align-items: center;
-    border-radius: var(--border-radius-md);
-    justify-content: center;
-    margin-left: 0px;
-    margin-right: 10px;
-    width: 250px;
-    height: 48px;
-}
-
-.contact__flower--right{
-    background-color: var(--secondary-color);
-    display: flex;
-    align-items: center;
-    border-radius: var(--border-radius-md);
-    justify-content: center;
-    margin-left: 25px;
-    width: 250px;
-    height: 48px;
-}
-
-.profile{
-    position: relative;
-    top: -8px;
-    left: -50px;
-}
-
 .flower-p{
     margin-top: 10px;
     color: gray;
+}
+
+.contact__Profile--right{
+    position: relative;
+    left: -40px;
+}
+
+.current__flower{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.current__flower--left{
+    background-color: var(--secondary-color);
+    border-radius: var(--border-radius-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 230px;
+    height: 40px;
+}
+
+.current__flower--right{
+    background-color: var(--secondary-color);
+    border-radius: var(--border-radius-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    width: 230px;
+    height: 40px;
+    margin-left: 40px;
+}
+
+
+.current__flower--left span{
+    font-size: var(--font-size-md);
+}
+
+.paragraph{
+    font-size: var(--font-size-md);
+    margin-right: 20px;
+}
+
+.bid-btn{
+    position: relative;
+    left: -10px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.bids__name--ul{
+    margin-top: 15px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    border-bottom: 0.5px solid white;
+}
+
+.contact__bid{
+    background-color: var(--dark-color);
+    margin-bottom: 10px;
+}
+
+.contact__bid sub{
+    color: gray;
+}
+
+.contact__bid--left{
+    margin-left: 170px;
+    width: 80px;
+}
+
+.contact__bid--profile{
+    position: relative;
+    left: 53px;
+    top: 5px;
+}
+
+.contact-bids{
+    border-bottom: 0.5px solid white;
 }

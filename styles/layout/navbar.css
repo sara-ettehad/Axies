@@ -15,9 +15,12 @@
     flex-direction: column;
 }
 
+.list__items{
+    
+}
+
 .item-nav{
-    border-bottom-color: var(--light-color);
-    border-bottom-style:double;
+    border-bottom: 1px solid white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
