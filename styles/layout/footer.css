@@ -96,7 +96,7 @@
 .footer-grid p{
     display: flex;
     text-align: start;
-    font-size: var(--font-size-md);
+    font-size: var(--font-size-lg);
     color: gray;
 }
 
