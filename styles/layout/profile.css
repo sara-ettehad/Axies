@@ -1,0 +1,106 @@
+.profile__wrapper{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--dark-color);
+    height: auto;
+    margin:170px 50px 0px 80px;
+}
+
+.profile__wrapper--card{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondary-color);
+    width: 20%;
+    height: 340px;
+    border-radius: var(--border-radius-md);
+}
+
+.profile__wrapper--card img{
+    border-radius: var(--border-radius-md);
+    width: 100%;
+}
+
+.profile__wrapper--card button{
+    background-color: var(--secondary-color);
+    margin-top: 15px;
+    width: 100%;
+    margin-left: 0px;
+}
+
+.profile__wrapper--card button:hover{
+    background-color: var(--dark-color);
+}
+
+
+.profile__wrapper--details{
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile__files--grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    height: 100px;
+    border-radius: var(--border-radius-md);
+    border-color: var(--light-color);
+}
+
+.profile__files--grid button{
+    width: auto;
+}
+
+.profile__grid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--border-radius-md);
+    border-color: var(--light-color);
+    height: 100px;
+    width: 200px;
+}
+
+.profile__grid img{
+    height: 100px;
+    width: 200px;
+}
+
+.profile__details--info{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.profile__details--info button{
+    width: auto;
+}
+
+.profile__info--socialmedia{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+.profile__social{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile__account p{
+    margin-top: 15px;
+}
+
+.profile__social p{
+    margin-top: 15px;
+}
+
+.profile__social button{
+    margin-top: 10px;
+    width: 170px;
+    border: none;
+}
+
+.textarea{
+    height: 95px;
+}
