@@ -1,13 +1,22 @@
+.signin__wrapper{
+    margin: 100px 100px;
+}
+
 #signin-page{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin: 0px 100px 0px 0px;
+    justify-content: space-around;
+    align-items: center;
+    
 }
 
-.signin-images img{
-    height: 605px;
-    width: 800px;
+.div{
+    margin-top: 15px;
+}
+
+.signin-images{
+    height: 100%;
+    display: flex;
 }
 
 .fields{
@@ -15,13 +24,8 @@
     flex-direction: column;
 }
 
-.div{
-    margin-top: 20px;
-}
-
 .signin-field{
     position: relative;
-    top: -10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,7 +34,7 @@
 
 .title {
     text-align: center;
-    font-size: var(--font-size-lg);
+    font-size: var(--font-size-3xl);
 }
 
 .filed-input {
@@ -51,18 +55,24 @@
 }
 
 .Create{
+    cursor: pointer;
     color: var(--primary-color);
-    font-size: var(--font-size-sm);
+    font-size: var(--font-size-md);
+}
+
+.Create:hover{
+    color: var(--accent-color);
 }
 
 .signin-field p{
     color: var(--light-color);
 }
+
 .or{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    font-size: var(--font-size-sm);
+    font-size: var(--font-size-md);
     justify-content: center;
     align-items: center;
 }
@@ -72,4 +82,10 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+
+.social-btn{
+    margin: 15px 5px;
+    background-color: var(--secondary-color);
+    width: 12px;
 }

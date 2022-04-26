@@ -32,6 +32,7 @@
     --font-size-lg:1.25rem;
     --font-size-xl:1.5rem;
     --font-size-2xl:2rem;
+    --font-size-3xl:3.5rem;
     --font-size-4xl: 4.5rem;
 }
 
@@ -83,15 +84,19 @@ a{
     border-color: var(--primary-color);
     transition: all .3s ease;
     -webkit-transition: all 0.5s ease;
-    background-color: var(--light-color);
+    background: transparent;
     box-shadow: inset 1 1 0.2rem var(--primary-color);
+}
+
+input{
+    padding: 10px;
+    color: var(--light-color);
 }
 
 
 /* BEM */   
 
 .btn-primary{
-    background-color: var(--dark-color);
     color:  var(--light-color);
 }
 

@@ -10,11 +10,11 @@
     height: 3.3rem;
     border-width: 1px;
     border-radius: var(--border-radius-md);
-    font-size: var(--font-size-md);
+    background-color: var(--primary-color);
+    font-size: var(--font-size-lg);
     font-weight: 700;
     color: #fff;
     text-align: center;
-    background-color: var(--primary-color);
 }
 
 .btn-like p{
@@ -36,7 +36,6 @@
     width: 41px;
     left: 45px;
     top: 20px;
-    background-color: var(--primary-color);
 }
 
 .pick-btn{
@@ -49,7 +48,6 @@
     display: flex;
     position: relative;
     flex-direction: row;
-    background-color: var(--dark-color);
     border: none;
     align-items: center;
     justify-content: space-around;
@@ -58,7 +56,7 @@
 }
 
 .signin-btn:hover {
-    background-color: var(--dark-color);
+    background-color: var(--secondary-color);
 }
 
 .btn-like:hover{
