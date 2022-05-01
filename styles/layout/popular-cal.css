@@ -6,11 +6,12 @@
 .popular-wrapper{
     padding: 0px 15px;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(auto-fill, 400px);
+    justify-content: space-around;
 }
 
 .popular-box{
-    margin: 10px 30px;
+    margin: 10px 20px;
     padding: 2.5rem;
     display: flex;
     flex-direction: column;
