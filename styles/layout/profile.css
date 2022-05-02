@@ -40,12 +40,11 @@
 }
 
 .profile__files--grid{
+    margin-top: 15px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(190px,1fr));
     grid-gap: 30px;
     min-height: 100px;
-    border-radius: var(--border-radius-md);
-    border-color: var(--light-color);
 }
 
 .profile__files--grid button{
@@ -56,15 +55,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: var(--border-radius-md);
-    border-color: var(--light-color);
     height: 100px;
     width: 200px;
 }
 
 .profile__grid img{
+    border-radius: var(--border-radius-lg);
+    border-color: var(--light-color);
+    border-style: solid;
     height: 100px;
     width: 200px;
+}
+.profile-upload{
+    border-radius: var(--border-radius-lg);
+    border-color: var(--light-color);
+    border-style: solid;
 }
 
 .profile__details--info{
