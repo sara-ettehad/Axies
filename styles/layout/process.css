@@ -8,9 +8,11 @@
 }
 
 .process-wrapper{
-    padding: 0px 20px;
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(auto-fill, 250px);
+    justify-content: space-around;
+    grid-gap: 20px;
 }
 
 .process-box{

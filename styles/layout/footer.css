@@ -10,6 +10,7 @@
 }
 
 .footer-wrapper{
+    padding: 0px 20px;
     display: grid;
     justify-content: space-around;
     align-items: flex-start;
