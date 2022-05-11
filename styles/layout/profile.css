@@ -1,9 +1,9 @@
 .profile__wrapper{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 220px 800px;
     background-color: var(--dark-color);
     height: auto;
-    margin:170px 50px 0px 80px;
+    margin:0px 50px 0px 80px;
 }
 
 .profile__wrapper--card{
@@ -11,9 +11,14 @@
     display: flex;
     flex-direction: column;
     background-color: var(--secondary-color);
-    width: 20%;
     height: 340px;
     border-radius: var(--border-radius-md);
+}
+
+.profile__wrapper--card-btns{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
 }
 
 .profile__wrapper--card img{
@@ -109,3 +114,39 @@
 .textarea{
     height: 95px;
 }
+
+@media (max-width: 800px) {
+    .profile__wrapper--card{
+        height: 220px;
+        width: 1fr;
+        display: flex;
+        flex-direction: row;
+    }
+    .profile__wrapper{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .profile__details--info{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .profile__wrapper--details{
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    .profile__files--grid{
+        grid-gap: 10px;
+    }
+    .profile__info--socialmedia{
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+    .profile__wrapper--card img{
+        width: 50%;
+    }
+    .profile__wrapper--card-btns{
+        width: 200px;
+    }
+  }

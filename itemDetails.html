@@ -9,13 +9,17 @@
     <title>Axies</title>
 </head>
 <body>
-    <header id="header">
-        <div class="navbar__item--details">
-            <div class="item-nav">
+    <div class="item--details">
+        <h1>Item Details</h1>
+        <p>Home / Pages / <span>Item Details</span></p>
+    </div>
+    <header class="header header-item--details">
+        <div class="container">
+            <div class="header-wrapper">
                 <div class="navbar-logo">
                     <img src="./images/header/logo_dark.png" alt="Axies">
                 </div>
-
+    
                 <div class="navbar-nav">
                     <ul class="nav-lists">
                       <div class="submenu">
@@ -87,16 +91,15 @@
                       </div>
                     </ul>
                 </div>
-
+    
                 <div class="navbar__wallet">
                     <div class="search-btn">
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
                     <div class="sign__in--btn">
-                        <a href="./login.html">
+                        <a href="">
                             <button type="button" class="btn btn-primary">
-                            <i class="fa-solid fa-arrow-right-to-bracket"></i>
-                            Sign In
+                            Wallet Connect
                             </button>
                         </a>
                     </div>
@@ -109,12 +112,13 @@
                         <img src="./images/header/moon-2.png">
                     </button>
                 </div>
-            </div>
-            <div class="item--details">
-                <h1>Item Details1</h1>
-                <p>Home / Explore / <span>Item Details1</span></p>
+                <div class="bar">
+                    <i class="fas fa-bars"></i>
+                </div>
+
             </div>
         </div>
+        
 
     </header>
 
@@ -268,7 +272,6 @@
                 
                 <div class="slider">
 
-                    <i class="fa-solid fa-chevron-left"></i>
 
                     <div class="picks-wrapper">
 
@@ -414,7 +417,6 @@
                         </div>
                     </div>
 
-                    <i class="fa-solid fa-chevron-right"></i>
                 </div>
             </div>
         </section>
@@ -428,14 +430,14 @@
             <div class="container">
                 <div class="footer-wrapper">
 
-                    <div class="footer-grid first">
+                    <div class="footer-grid-first">
                         <div class="footer-logo">
                             <img src="./images/header/logo_dark.png" alt="Axies">
                         </div>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus veritatis nostrum libero obcaecati, eos rerum voluptatem unde tempore culpa reprehenderit.</p>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius reiciendis aspernatur quod adipisci error natus!</p>
                     </div>
-
-                    <div class="footer-grid second">
+                    
+                    <div class="footer-grid-second">
                         <div class="ul-footer-grid">
                             <h3>My Account</h3>
                             <ul>
@@ -465,7 +467,7 @@
                         </div>
                     </div>
 
-                    <div class="footer-grid third">
+                    <div class="footer-grid-third">
                         <h3>Subscribe Us</h3>
                         <div class="footer-grid-input">
                             <input type="text" placeholder="Info@yourgmail.com" autofocus class="input">
@@ -473,11 +475,33 @@
                                 <i class="fa-solid fa-share"></i>
                             </button>
                         </div>
+                        <div class="footer-social">
+                            <button type="button" class="btn btn-primary btn-like social">
+                                <i class="fa-brands fa-twitter"></i>
+                            </button>
+                            <button type="button" class="btn btn-primary btn-like social">
+                                <i class="fa-brands fa-facebook"></i>
+                            </button>
+                            <button type="button" class="btn btn-primary btn-like social">
+                                <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                            <button type="button" class="btn btn-primary btn-like social">
+                                <i class="fa-brands fa-youtube"></i>
+                            </button>
+                            <button type="button" class="btn btn-primary btn-like social">
+                                <i class="fa-brands fa-instagram"></i>
+                            </button>
+                            <button type="button" class="btn btn-primary btn-like social">
+                                <i class="fa-brands fa-meetup"></i>
+                            </button>
+                        </div>
                     </div>
                 </div>
-            </div>        
-        </section>
+            </div>    
+            </section>
 
     </footer>
+
+    <script src="./js/script.js"></script>
 </body>
 </html>

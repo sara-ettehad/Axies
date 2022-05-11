@@ -1,5 +1,4 @@
 #flower{
-    margin-top: 180px;
     height: 600px;
     background-color: var(--dark-color);
 }
@@ -190,3 +189,12 @@
 .contact-bids{
     border-bottom: 0.5px solid white;
 }
+
+@media (max-width: 800px) {
+    .flower__item--right{
+        width: 100%;
+    }
+    .flower__item--left{
+        display: none;
+    }
+  }

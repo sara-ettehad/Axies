@@ -38,13 +38,14 @@
     top: 20px;
 }
 
-.pick-btn{
-    margin: 0 1rem;
+.pick{
+    margin: 0 0.5rem;
     border-color: var(--light-color);
 }
 
 .btn-like{
-    margin-right: -40px;
+    background-color: var(--dark-color);
+    margin-right: 10px;
     display: flex;
     position: relative;
     flex-direction: row;
@@ -63,6 +64,24 @@
     background-color: var(--dark-color);
 }
 
-.pick-btn:hover{
+.btn-navbar{
+    color: var(--light-color);
+    border-radius: var(--border-radius-3xl);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    width: 40px;
+    height: 40px;
     background-color: var(--secondary-color);
+    margin: 2px;
+}
+
+.live-btn{
+    position: relative;
+    left: 65px;
+    top: -30px;
+    width: 90px;
+    height: 18px;
+    font-size: medium;
 }

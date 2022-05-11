@@ -2,3 +2,8 @@
     position: relative;
     background-color: #000000;
 }
+
+.fa-fire-flame-curved{
+    color: var(--primary-color);
+}
+

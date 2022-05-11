@@ -9,13 +9,13 @@
     <title>Axies</title>
 </head>
 <body>
-    <header id="header">
-        <div class="containerx">
-            <nav class="navbar--wrapper">
+    <header class="header">
+        <div class="container">
+            <div class="header-wrapper">
                 <div class="navbar-logo">
                     <img src="./images/header/logo_dark.png" alt="Axies">
                 </div>
-
+    
                 <div class="navbar-nav">
                     <ul class="nav-lists">
                       <div class="submenu">
@@ -87,15 +87,14 @@
                       </div>
                     </ul>
                 </div>
-
+    
                 <div class="navbar__wallet">
                     <div class="search-btn">
                         <i class="fa-solid fa-magnifying-glass"></i>
                     </div>
                     <div class="sign__in--btn">
-                        <a href="./login.html">
+                        <a href="">
                             <button type="button" class="btn btn-primary">
-                                <i class="fa-salid fa-wallet"></i>
                             Wallet Connect
                             </button>
                         </a>
@@ -109,7 +108,11 @@
                         <img src="./images/header/moon-2.png">
                     </button>
                 </div>
-            </nav>
+                <div class="bar">
+                    <i class="fas fa-bars"></i>
+                </div>
+
+            </div>
         </div>
 
     </header>
@@ -229,18 +232,16 @@
 
                 
                 <div class="slider">
-
-                    <i class="fa-solid fa-chevron-left"></i>
-
                     <div class="picks-wrapper">
 
                         <div class="picks-box">
                             <div class="image-picks">
                                 <img src="./images/Today's Picks/card-item-3.jpg" alt="card picks">
-                                <button type="button" class="btn btn-primary btn-like pick">
-                                    <i class="fa-solid fa-heart"></i>
-                                    <p>100</p>
+                                <button type="button" class="btn btn-primary btn-like live-btn">
+                                    <i class="fa-solid fa-fire-flame-curved"></i>
+                                    <p>5:23:22:08</p>
                                 </button>
+                               
                             </div>
                             <h3>"Hamlet Contemplates Yorick's...</h3>
                             <div class="contact-picks">
@@ -272,9 +273,9 @@
                         <div class="picks-box">
                             <div class="image-picks">
                                 <img src="./images/Today's Picks/image-box-11.jpg" alt="card picks">
-                                <button type="button" class="btn btn-primary btn-like pick">
-                                    <i class="fa-solid fa-heart"></i>
-                                    <p>100</p>
+                                <button type="button" class="btn btn-primary btn-like live-btn">
+                                    <i class="fa-solid fa-fire-flame-curved"></i>
+                                    <p>5:23:22:08</p>
                                 </button>
                             </div>
                             <h3>"Hamlet Contemplates Yorick's...</h3>
@@ -307,9 +308,9 @@
                         <div class="picks-box">
                             <div class="image-picks">
                                 <img src="./images/Today's Picks/card-item-2.jpg" alt="card picks">
-                                <button type="button" class="btn btn-primary btn-like pick">
-                                    <i class="fa-solid fa-heart"></i>
-                                    <p>100</p>
+                                <button type="button" class="btn btn-primary btn-like live-btn">
+                                    <i class="fa-solid fa-fire-flame-curved"></i>
+                                    <p>5:23:22:08</p>
                                 </button>
                             </div>
                             <h3>"Hamlet Contemplates Yorick's...</h3>
@@ -342,9 +343,9 @@
                         <div class="picks-box">
                             <div class="image-picks">
                                 <img src="./images/Today's Picks/card-item-7.jpg" alt="card picks">
-                                <button type="button" class="btn btn-primary btn-like pick">
-                                    <i class="fa-solid fa-heart"></i>
-                                    <p>100</p>
+                                <button type="button" class="btn btn-primary btn-like live-btn">
+                                    <i class="fa-solid fa-fire-flame-curved"></i>
+                                    <p>5:23:22:08</p>
                                 </button>
                             </div>
                             <h3>"Hamlet Contemplates Yorick's...</h3>
@@ -376,7 +377,6 @@
                         </div>
                     </div>
 
-                    <i class="fa-solid fa-chevron-right"></i>
                 </div>
             </div>
         </section>
@@ -973,14 +973,14 @@
             <div class="container">
                 <div class="footer-wrapper">
 
-                    <div class="footer-grid first">
+                    <div class="footer-grid-first">
                         <div class="footer-logo">
                             <img src="./images/header/logo_dark.png" alt="Axies">
                         </div>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius reiciendis aspernatur quod adipisci error natus!</p>
                     </div>
-
-                    <div class="footer-grid second">
+                    
+                    <div class="footer-grid-second">
                         <div class="ul-footer-grid">
                             <h3>My Account</h3>
                             <ul>
@@ -1010,12 +1010,32 @@
                         </div>
                     </div>
 
-                    <div class="footer-grid third">
+                    <div class="footer-grid-third">
                         <h3>Subscribe Us</h3>
                         <div class="footer-grid-input">
                             <input type="text" placeholder="Info@yourgmail.com" autofocus class="input">
                             <button type="button" class="btn btn-primary send">
                                 <i class="fa-solid fa-share"></i>
+                            </button>
+                        </div>
+                        <div class="footer-social">
+                            <button type="button" class="btn btn-primary btn-like social">
+                                <i class="fa-brands fa-twitter"></i>
+                            </button>
+                            <button type="button" class="btn btn-primary btn-like social">
+                                <i class="fa-brands fa-facebook"></i>
+                            </button>
+                            <button type="button" class="btn btn-primary btn-like social">
+                                <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                            <button type="button" class="btn btn-primary btn-like social">
+                                <i class="fa-brands fa-youtube"></i>
+                            </button>
+                            <button type="button" class="btn btn-primary btn-like social">
+                                <i class="fa-brands fa-instagram"></i>
+                            </button>
+                            <button type="button" class="btn btn-primary btn-like social">
+                                <i class="fa-brands fa-meetup"></i>
                             </button>
                         </div>
                     </div>
@@ -1024,6 +1044,8 @@
             </section>
 
     </footer>
+
+    <script src="./js/script.js"></script>
     
 </body>
 </html>
