@@ -1,11 +1,12 @@
-.body__wrapper{
+body{ 
     background-image: url(./../../images/logIn/login.jpg);
     -webkit-background-size: cover;
     background-size:cover;
+    height: 100%;
     padding: 100px;
     background-repeat: no-repeat;
     background-position: center center;
-  }
+}
 
 .field__wrapper{
     width: 500px;
