@@ -85,3 +85,9 @@
     height: 18px;
     font-size: medium;
 }
+
+.social-btn{
+    margin: 15px 5px;
+    background-color: var(--secondary-color);
+    width: 12px;
+}

@@ -1,34 +1,31 @@
-.signin__wrapper{
-    margin: 100px 100px;
-}
+.body__wrapper{
+    background-image: url(./../../images/logIn/login.jpg);
+    -webkit-background-size: cover;
+    background-size:cover;
+    padding: 100px;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
 
-#signin-page{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.field__wrapper{
+    width: 500px;
+    height: 450px;
+    margin: 30px auto 0;
+    background: rgba(0,0,0,0.6);
     align-items: center;
-    
+    padding: 35px;
+    border: 3px solid #fff;
+    border-radius: 70px 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .div{
     margin-top: 15px;
 }
 
-.signin-images{
-    height: 100%;
-    display: flex;
-}
-
 .fields{
     display: flex;
-    flex-direction: column;
-}
-
-.signin-field{
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
 }
 
@@ -49,7 +46,6 @@
 
 .username-msg, .password-msg {
     font-size: var(--font-size-md);
-    color: var(--light-color);
     display: inline-block;
     height: 25px;
 }
@@ -62,10 +58,6 @@
 
 .Create:hover{
     color: var(--accent-color);
-}
-
-.signin-field p{
-    color: var(--light-color);
 }
 
 .or{
@@ -82,10 +74,4 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-}
-
-.social-btn{
-    margin: 15px 5px;
-    background-color: var(--secondary-color);
-    width: 12px;
 }
