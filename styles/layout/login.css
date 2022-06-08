@@ -1,16 +1,17 @@
 .login-page{ 
-    margin: 0px;
-    padding: 0px;
     background-image: url(./../../images/logIn/login.jpg);
     -webkit-background-size: cover;
     background-size:cover;
-    height: 100%;
     background-repeat: no-repeat;
     background-position: center center;
+    margin: 0px;
+    padding: 30px;
+    height: 100%;
 }
 
 .field__wrapper{
     width: 500px;
+    height: 100%;
     margin: 30px auto 0;
     background: rgba(0,0,0,0.6);
     align-items: center;
