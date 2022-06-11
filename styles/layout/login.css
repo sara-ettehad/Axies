@@ -1,12 +1,10 @@
 .login-page{ 
-    background-image: url(./../../images/logIn/login.jpg);
-    -webkit-background-size: cover;
-    background-size:cover;
+    background-image: url(./../../images/logIn/susan-wilkinson-lrpTi8hG9os-unsplash.jpg);
     background-repeat: no-repeat;
     background-position: center center;
+    object-fit: cover;
     margin: 0px;
     padding: 30px;
-    height: 100%;
 }
 
 .field__wrapper{

@@ -1,6 +1,4 @@
-#process{
-    min-height: 20vh;
-}
+
 
 .proces__row{
     display: flex;
@@ -11,12 +9,12 @@
     width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fill, 250px);
-    justify-content: space-around;
-    grid-gap: 20px;
+    justify-content: space-between;
+    grid-gap: 10px;
 }
 
 .process-box{
-    padding: 2.5rem;
+    padding: 2.1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;

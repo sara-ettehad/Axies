@@ -12,12 +12,12 @@
     display: grid;
     grid-template-columns: repeat( auto-fill, 270px);
     grid-gap: 10px;
-    justify-content: space-around;
+    justify-content: center;
     margin: 20px 40px;
 }
 
 .picks-box{
-    padding: 1.4rem 1.4rem;
+    padding: 1.7rem 1.7rem;
     margin: 15px 10px;
     display: flex;
     flex-direction: column;

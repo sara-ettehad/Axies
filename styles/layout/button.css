@@ -78,3 +78,31 @@
     background-color: var(--secondary-color);
     width: 12px;
 }
+
+.back-btn{
+    background: rgba(0,0,0,0.6);
+}
+.profle-btn{
+    border-color: var(--light-color);
+}
+
+.profle-btn:hover{
+    background-color: var(--secondary-color);
+}
+
+.btn-socailmedia{
+    background-color: var(--primary-color);
+    font-size: small;
+    width: auto;
+    padding: 8px;border: solid;
+    border-color: var(--primary-color);
+}
+
+.btn-socailmedia:hover{
+    border: solid;
+    border-color: var(--primary-color);
+    transition: all .3s ease;
+    -webkit-transition: all 0.5s ease;
+    background: transparent;
+    box-shadow: inset 1 1 0.2rem var(--primary-color);
+}

@@ -9,13 +9,10 @@
     <link rel="stylesheet" href="./styles/home/home.css">
     <title>Axies</title>
 </head>
-<body>
-    <div class="item--details">
-        <h1>Edit Profile</h1>
-        <p>Home / Pages / <span>Edit Profile</span></p>
-    </div>
-    <header class="header header-item--details">
-        <div class="container">
+<header class="item-header">
+        
+    <div class="header header-item--details">
+        <div class="">
             <div class="header-wrapper">
                 <div class="navbar-logo">
                     <img src="./images/header/logo_dark.png" alt="Axies">
@@ -121,12 +118,22 @@
         </div>
         
 
-    </header>
+    </div>
+
+    <div class="item--details">
+        <h1>Edit Profile</h1>
+        <p>Home / Pages / <span>Edit Profile</span></p>
+    </div>
+</header>
+
+
+<body>
+    
 
    <main>
        
 
-       <section class="body">
+       <section id="profile">
         <div class="container">
             <div class="profile__wrapper">
                 
@@ -152,9 +159,9 @@
                      <div class="profile__files--grid">
  
                          <div class="profile__grid profile-upload">
-                             <button type="button" class="btn btn-primary pick-btn bid-btn">
-                                 Upload file
-                             </button>
+                            <button type="button" class="btn btn-primary pick-btn profle-btn">
+                                Upload file
+                            </button>
                          </div>
  
                          <div class="profile__grid">
@@ -192,7 +199,7 @@
                                  </textarea>
                                </div>
  
-                             <button type="button" class="btn btn-primary pick-btn bid-btn">
+                             <button type="button" class="btn btn-primary pick-btn bid-btn profle-btn">
                                  Upload Profile
                              </button>
  
@@ -205,7 +212,7 @@
                              <p>Facebook</p>
                              <input type="text" placeholder="Facebook username" autofocus class="filed-input">
                              <span></span>
-                             <button type="button" class="signin-btn account-btn">
+                             <button type="button" class="btn btn-primary btn-socailmedia">
                                  <i class="fa-brands fa-facebook-f"></i>
                                  Connect to face book
                              </button>
@@ -213,7 +220,7 @@
                              <p>Twitter</p>
                              <input type="text" placeholder="Twitter username" autofocus class="filed-input">
                              <span></span>
-                             <button type="button" class="signin-btn account-btn">
+                             <button type="button" class="btn btn-primary btn-socailmedia">
                                  <i class="fa-brands fa-twitter"></i>
                                  Connect to Twitter
                              </button>
@@ -221,7 +228,7 @@
                              <p>Email</p>
                              <input type="text" placeholder="Enter your email" autofocus class="filed-input">
                              <span></span>
-                             <button type="button" class="signin-btn account-btn">
+                             <button type="button" class="btn btn-primary btn-socailmedia">
                                  <i class="fa-brands fa-discord"></i>
                                  Connect to Discard
                              </button>

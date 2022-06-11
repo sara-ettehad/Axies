@@ -1,5 +1,5 @@
 #hero{
-    min-height: 88vh;
+    min-height: 50vh;
     margin-top: 60px;
 }
 
@@ -11,9 +11,7 @@
 }
 
 .hero__wrapper{
-    justify-content: space-around;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(500px,1fr));
+    display: flex;
 }
 
 .hero__item--left{

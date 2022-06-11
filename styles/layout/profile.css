@@ -1,9 +1,21 @@
+#profile{
+    margin-top: 310px;
+}
+
 .profile__wrapper{
     display: grid;
-    grid-template-columns: 220px 800px;
-    background-color: var(--dark-color);
-    height: auto;
-    margin:0px 50px 0px 80px;
+    display: grid;
+  grid-template-columns: 300px auto;
+  gap: 8rem;
+
+
+    @media screen and (max-width: 1100px) {
+        grid-template-columns: 250px auto;
+        gap: 3rem;
+      }
+      @media screen and (max-width: 650px) {
+        grid-template-columns: 1fr;
+      }
 }
 
 .profile__wrapper--card{
@@ -11,7 +23,7 @@
     display: flex;
     flex-direction: column;
     background-color: var(--secondary-color);
-    height: 340px;
+    height: 420px;
     border-radius: var(--border-radius-md);
 }
 
@@ -114,39 +126,3 @@
 .textarea{
     height: 95px;
 }
-
-@media (max-width: 800px) {
-    .profile__wrapper--card{
-        height: 220px;
-        width: 1fr;
-        display: flex;
-        flex-direction: row;
-    }
-    .profile__wrapper{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
-    .profile__details--info{
-        display: flex;
-        flex-direction: column;
-
-    }
-    .profile__wrapper--details{
-        margin-top: 50px;
-        margin-left: 0px;
-    }
-    .profile__files--grid{
-        grid-gap: 10px;
-    }
-    .profile__info--socialmedia{
-        margin-top: 50px;
-        margin-left: 0px;
-    }
-    .profile__wrapper--card img{
-        width: 50%;
-    }
-    .profile__wrapper--card-btns{
-        width: 200px;
-    }
-  }

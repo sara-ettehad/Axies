@@ -1,5 +1,5 @@
 #flower{
-    height: 600px;
+   margin-top: 310px;
     background-color: var(--dark-color);
 }
 
@@ -13,6 +13,9 @@
 }
 
 .flower__item--left img{
+    max-width: 1000px;
+    max-height: 550px;
+    object-fit: cover;
     height: 100%;
     width: 100%;
     border-radius: var(--border-radius-md);
@@ -25,7 +28,7 @@
     grid-template-columns: repeat(2,1fr);
 }
 
-.flower__item--right{   
+.flower__item--right{
     margin-left: 40px; 
     display: flex;
     flex-direction: column;
@@ -109,10 +112,6 @@
     color: gray;
 }
 
-.contact__Profile--right{
-    position: relative;
-    left: -40px;
-}
 
 .current__flower{
     margin-top: 15px;
